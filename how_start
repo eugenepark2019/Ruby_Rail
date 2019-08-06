@@ -1,0 +1,46 @@
+Microsoft Windows [Version 10.0.17763.615]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\Student>cd..
+
+C:\Users>cd..
+
+C:\>cd railsinstaller
+
+C:\RailsInstaller>irb                          ///Rail shell
+irb(main):001:0> "hello world"
+=> "hello world"
+irb(main):002:0> puts "Hello World"            ///puts  == print
+Hello World
+=> nil
+irb(main):003:0> lander_count = 10
+=> 10
+irb(main):004:0> lander_count = "sufficient"
+=> "sufficient"
+irb(main):005:0> lander_count.class
+=> String
+irb(main):006:0> String.public_methods.sort
+=> [:!, :!=, :!~, :<, :<=, :<=>, :==, :===, :=~, :>, :>=, :__id__, :__send__, :allocate, :ancestors, :autoload, :autoload?, :class, :class_eval, :class_exec, :class_variable_defined?, :class_variable_get, :class_variable_set, :class_variables, :clone, :const_defined?, :const_get, :const_missing, :const_set, :constants, :define_singleton_method, :display, :dup, :enum_for, :eql?, :equal?, :extend, :freeze, :frozen?, :hash, :include, :include?, :included_modules, :inspect, :instance_eval, :instance_exec, :instance_method, :instance_methods, :instance_of?, :instance_variable_defined?, :instance_variable_get, :instance_variable_set, :instance_variables, :is_a?, :itself, :kind_of?, :method, :method_defined?, :methods, :module_eval, :module_exec, :name, :new, :nil?, :object_id, :prepend, :private_class_method, :private_constant, :private_instance_methods, :private_method_defined?, :private_methods, :protected_instance_methods, :protected_method_defined?, :protected_methods, :public_class_method, :public_constant, :public_instance_method, :public_instance_methods, :public_method, :public_method_defined?, :public_methods, :public_send, :remove_class_variable, :remove_instance_variable, :respond_to?, :send, :singleton_class, :singleton_class?, :singleton_method, :singleton_methods, :superclass, :taint, :tainted?, :tap, :to_enum, :to_s, :trust, :try_convert, :untaint, :untrust, :untrusted?]
+irb(main):007:0> String.superclass.superclass
+=> BasicObject
+irb(main):008:0> 10.class
+=> Fixnum
+irb(main):009:0> 100.abs
+=> 100
+irb(main):010:0> def double(val);val * 2; end
+=> :double
+irb(main):011:0> String.superclass
+=> Object
+irb(main):012:0> def double(val);val*2;end
+=> :double
+irb(main):013:0> double(10)
+=> 20
+irb(main):014:0> double(200)
+=> 400
+irb(main):015:0> double("abc")
+=> "abcabc"
+irb(main):016:0> double([1,2,3])
+=> [1, 2, 3, 1, 2, 3]
+irb(main):017:0> double(_)
+=> [1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3]
+irb(main):018:0> exit                                              ///exit
