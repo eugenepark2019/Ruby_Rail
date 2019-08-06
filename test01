@@ -1,0 +1,60 @@
+puts "Hello World"
+# Can use "or" for strings, but 'is more efficient
+puts 'Hello Wolrd'
+
+#String concatenation
+
+puts 'I like'+'Ruby'
+
+#Escape sequence
+puts 'It\'s my Ruby'
+#New here, displays the string three times
+puts 'Hello'*3
+
+PI = 3.1416
+puts PI
+
+================================================================================================
+##Command Prompt Result##
+
+C:\RailsInstaller>cd ruby
+The system cannot find the path specified.
+
+C:\RailsInstaller>dir/p
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is 0A92-07C0
+
+ Directory of C:\RailsInstaller
+
+2018-12-18  04:32 PM    <DIR>          .
+2018-12-18  04:32 PM    <DIR>          ..
+2018-12-18  04:32 PM    <DIR>          DevKit
+2018-12-18  04:32 PM    <DIR>          Git
+2019-08-06  10:33 AM    <DIR>          Ruby2.2.0
+2018-12-18  04:32 PM    <DIR>          scripts
+2018-12-18  04:32 PM         1,749,208 unins000.dat
+2018-12-18  04:31 PM           722,670 unins000.exe
+               2 File(s)      2,471,878 bytes
+               6 Dir(s)  193,726,496,768 bytes free
+
+C:\RailsInstaller>cd ruby2.2.0
+
+C:\RailsInstaller\Ruby2.2.0>cd programs
+
+C:\RailsInstaller\Ruby2.2.0\programs>ruby first.rb
+
+Hello World
+Hello Wolrd
+I likeRuby
+It's my Ruby
+HelloHelloHello
+
+C:\RailsInstaller\Ruby2.2.0\programs>ruby first.rb
+Hello World
+Hello Wolrd
+I likeRuby
+It's my Ruby
+HelloHelloHello
+3.1416
+
+C:\RailsInstaller\Ruby2.2.0\programs>
